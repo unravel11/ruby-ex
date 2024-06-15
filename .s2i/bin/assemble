@@ -1,5 +1,4 @@
 #!/bin/bash
 set -e
 
-echo "Custom build step: Installing additional packages"
-yum install -y vim
+echo "Custom build step: Message from custom assemble script"
