@@ -2,4 +2,4 @@
 set -e
 
 echo "Custom build step: Installing additional packages"
-yum install -y vim
+sudo yum install -y vim
