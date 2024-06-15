@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+
+echo "Custom build step: Installing additional packages"
+yum install -y vim
